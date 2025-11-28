@@ -1,4 +1,6 @@
 name: CI - Pruebas Nativas (Pytest + Behave)
+permissions:
+  contents: read
 
 # Se ejecuta al hacer push o pull request en la rama main
 on:
